@@ -1,0 +1,8 @@
+{% extends 'base.html'%}{% block content %}
+
+<h1 style="text-align: center;">FACE DETECTION WEB APP IN FLASK</h1>
+<div style="justify-content: center; display: flex; margin-top: 20px; border : 2px solid black">
+    <button type="button"  onclick="window.location.href='{{ url_for( 'capture') }}';" class="btn btn-primary btn-lg">Start Capturing</button>
+</div>
+
+{% endblock %}
